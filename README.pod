@@ -1,0 +1,13 @@
+Run 'dzil test' in the test case directory attached (or available at the git repo:  https://github.com/russoz/test-case-taskweaver )
+
+If the last =pkg is in the form
+
+ =pkg Some::Module 1.234
+
+everything goes smoothly. But if it is in the form:
+
+ =pkg Some::Module 1.234 some reason here
+
+it blows with the message:
+
+Can't locate object method "children" via package "Pod::Elemental::Element::Pod5::Command" at /home/az/perl5/lib/perl5/Pod/Weaver/Plugin/TaskWeaver.pm line 76.
