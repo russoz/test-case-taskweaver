@@ -1,3 +1,6 @@
+*** TICKET 69189 ***
+L<https://rt.cpan.org/Ticket/Display.html?id=69189>
+
 Run 'dzil test' in the test case directory attached (or available at the git repo:  https://github.com/russoz/test-case-taskweaver )
 
 If the last =pkg is in the form
